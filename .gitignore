@@ -1,0 +1,8 @@
+My_Binary_Ingestion/private
+BlockChain_for_CompanyX/private
+
+sources/*
+
+tools/Trim_ffmpeg
+tools/Inputs_generator_spectrogram
+tools/Inputs_generator_waveform

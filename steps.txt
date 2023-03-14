@@ -1,0 +1,39 @@
+ffmpeg, opencv, R e Tensors per il c++: https://github.com/AmalLight/Tesseract_Procedural_Generations/tree/main/CPP_Tensors_R_Speech_visualization
+
+split_sentence: https://github.com/AmalLight/Sequence_Models/blob/main/third/Assignement_short/Trigger_word_detection_v2a.py
+split sentence = split sentence + window_frames ( +- randomized )
+
+# --------------------------------------------------------------------
+
+example first choice:
+
+    text_generators: https://github.com/AmalLight/Neural_Network_2/tree/main/8.text_generators
+                     https://github.com/AmalLight/Neural_Network_2/tree/main/9.time_series_math_intro ( + noise )
+
+    reinforce means: https://github.com/AmalLight/Neural_Network_2/tree/main/6.NLP ( as .,:... )
+                     https://github.com/AmalLight/NLP                              ( pure math )
+
+second choice:
+
+    text_prediction: https://github.com/AmalLight/Neural_Network_2/tree/main/7.sequences_RNN ( doesn't need first token to predict the future )
+    ( text_generators to reinforce ? )
+
+# --------------------------------------------------------------------
+
+csv:
+    wave     => X
+    X splits => [ w1 , w2 , w3 , w4 , ... , wn ] => [ T1 , T2 , T3 , T4 , ... , Tn ] => Y
+
+    time_start    , time_end      , word
+    real_number_1   real_number_2   emptyspace or aWordK <-- THIS SYSEM IT IS HARD TO IMPLEMENTING ( I HAVE TO COUNT SOME MICRO-SECONDS )
+
+    time_start    , time_end      , word
+    real_number_1   real_number_2   aWordK <--  THIS SYSEM IT IS EASYER TO IMPLEMENTING ( I DON'T HAVE TO COUNT SOME MICRO-SECONDS )
+                                            --> text_generators = [ words_token_future , time_token_future ]
+
+# --------------------------------------------------------------------
+
+*ps1: reference to generic models: https://github.com/AmalLight/Neural_Network_2/blob/main/4.generic_models/15.transfer_learning.py
+      be careful to choose one of them, they don't have free of ingestion and they are really deep ( DNN ).
+
+*ps2: my R doesn't have backtrack, I didn't have need of this.

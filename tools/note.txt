@@ -1,0 +1,6 @@
+https://github.com/AmalLight/Sequence_Models/blob/main/third/Assignement_short/Trigger_word_detection_v2a.py
+
+https://github.com/AmalLight/Speak_To_Me/blob/main/audio_docs/Trigger_word_detection_td_utils_specgram1D.py
+
+https://github.com/AmalLight/Pipelines/blob/main/built_AI/steps/1.png
+https://github.com/AmalLight/Pipelines/blob/main/built_AI/steps/2.png
